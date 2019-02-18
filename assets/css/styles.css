@@ -1,0 +1,32 @@
+@import url("http://fonts.googleapis.com/css?family=Delius+Unicase");
+
+* {
+	font-family: 'Delius Unicase', cursive;
+
+}
+
+#pic {
+	border-radius: 50%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#firstTitle {
+	text-align: center;
+}
+
+#text {
+	width: 500px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+body {
+	background-image: url(../images/background.jpg);
+	background-repeat: no-repeat;
+	height: 100%; 
+	background-position: center;
+	background-size: cover;
+}
