@@ -10,14 +10,16 @@
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
+	width: 300px;
+	height: 300px;
 }
 
-#firstTitle {
+.firstTitle {
 	text-align: center;
 	font-size: 20px;
 }
 
-#text {
+.text {
 	width: 500px;
 	display: block;
 	margin-right: auto;
@@ -33,10 +35,20 @@
 	text-align: right;
 }
 
-body {
+#contact {
+	text-align: center;
+}
+
+html {
+	background-size: cover;
 	background-image: url(../images/background.jpg);
 	background-repeat: no-repeat;
 	height: 100%; 
 	background-position: center;
-	background-size: cover;
+
 }
+
+input {
+	text-align: center;
+}
+
